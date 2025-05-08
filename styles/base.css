@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
+    --foreground: #1C2024;
     --foreground-black: #1C2024;
     --foreground-grey: #60646C;
+    --separator: #D9D9E0;
+    --muted-brackground: rgba(0, 0, 85, 0.02);
+    --muted-foreground: #60646C;
 
 }
 
@@ -19,4 +23,8 @@ body {
 figure img {
     max-width: 100%;
     display: block;
+}
+
+strong {
+    font-weight: inherit;
 }
